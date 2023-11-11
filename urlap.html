@@ -2,39 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        input, textarea {
+            margin-top: 2px;
+            border: 1px solid grey;
+            background-color: rgb(230, 230, 230);
+        }
+    </style>
 </head>
 <body>
-    <h1>Sign-up</h1>
+    <!-- Feladatnak a címe -->
+    <h1>PM regisztrációs oldala</h1>
 
+    <!-- Űrlap belseje -->
     <form>
-        <fieldset>
-            <legend>Sign-up</legend>
-            
-            <input type="email" placeholder="E-Mail cím" id="email">
-            <br>
-            <input type="password" placeholder="Jelszó" id="password" style="margin-top: 2px;">
-            <br>
-            <input type="text" placeholder="Telefonszám" id="email" style="margin-top: 2px;">
-            
-            <br><br>
-            
-            <input type="radio" name="gender" id="gender"> fiú
-            <input type="radio" name="gender" id="gender"> lány
-            <br>
-            <input type="date" id="birthdate" style="margin-top: 2px;"> Születési dátum
-            
-            <br><br>
-            
-            <textarea cols=40 rows=4 placeholder="Írj magadról" style="margin-top: 2px;"></textarea>
-            <br>
+        <fieldset style="background-color: #e5e8b9;">
+            <!-- Űrlap címe -->
+            <legend><h2>Sign-up</h2></legend>
+
+            <!-- Email és jelsző -->
+            <input type="email" placeholder="E-Mail cím" id="email" required> <br>
+            <input type="password" placeholder="Jelszó" id="password" required> <br>
+            <input type="tel" placeholder="Telefonszám" id="phone" required> <br><br>
+
+            <!-- Nem és születési dátum -->
+            <input type="radio" name="gender" id="gender" required> fiú
+            <input type="radio" name="gender" id="gender" required> lány <br>
+            <input type="date" id="birthdate" required> Születési dátum <br><br>
+
+            <!-- Adatok -->
+            <textarea cols=40 rows=4 placeholder="Írj magadról" required></textarea> <br><br>
+            <input type='checkbox' required> Egyetértek...
         </fieldset>
     </form>
 
     <br>
-    <a href="index.html">Vissza a főoldalra</a>
+    <h4><a href="index.html">Vissza a főoldalra</a></h4>
     <br>
 </body>
 </html>
