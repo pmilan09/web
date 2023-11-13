@@ -2,31 +2,31 @@
 
 /* Mindegyik szövegnek ugyanaz legyen a színe,
    illetve a 'családja' */
-html * {
-    color: #2E4052;
+   html * {
+    color: #c1c1c1;
     font-family: monospace;
 }
-  
+
 /* A kijelölt szöveg színe */
 ::selection {
-    background: #bfc19c;
+    background: #848982;
 }
 
 /* A weboldal háttérszíne */
 body {
-    background-color: #EFF2C0;
+    background-color: #242930;
 }
-  
+
 /* Összes headernek, valamint felsorolásnak
     a 'margin'-ja legyen 1px */
 h1, h2, h3, h4, h5, h6, ul, ol {
     margin: 1px;
 }
-  
+
 hr {
-    color: #e2e5b7;
+    color: #c1c1c1;
 }
-  
+
 /* Idegesített, hogy sok hely volt a felsorolásnál,
     ezért lecsökkentem itt */
 ul { padding-left: 25px; }
