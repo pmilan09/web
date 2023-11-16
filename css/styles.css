@@ -2,7 +2,7 @@
 
 /* Mindegyik szövegnek ugyanaz legyen a színe,
    illetve a 'családja' */
-   html * {
+html * {
     color: #c1c1c1;
     font-family: monospace;
 }
