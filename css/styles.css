@@ -2,7 +2,7 @@
 
 /* Mindegyik szövegnek ugyanaz legyen a színe,
    illetve a 'családja' */
-html * {
+   html * {
     color: #c1c1c1;
     font-family: monospace;
 }
@@ -23,11 +23,14 @@ h1, h2, h3, h4, h5, h6, ul, ol {
     margin: 1px;
 }
 
-hr {
-    color: #c1c1c1;
+/* A navigációs tabok beállítása */
+nav {
+    background-color: #2e343d;
+    border: 10px solid #2e343d;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-/* Idegesített, hogy sok hely volt a felsorolásnál,
-    ezért lecsökkentem itt */
-ul { padding-left: 25px; }
-ol { padding-left: 35px; }
+/* Vízszintes csík */
+hr { color: #c1c1c1; }
