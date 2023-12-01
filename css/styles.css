@@ -34,7 +34,13 @@ nav {
 
 nav a { 
     color: black;
+    transition: 0.5s;
     text-decoration: none;
+}
+
+nav a:hover { 
+    color: black;
+    font-weight: bold;
 }
 
 /* Vízszintes csík */
