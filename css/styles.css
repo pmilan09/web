@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6, ul, ol {
 }
 
 /* A navigációs tabok beállítása */
-nav {
+/*nav {
     background-color: #2e343d;
     border: 10px solid #2e343d;
     border-radius: 10px;
     display: inline-block;
     margin-bottom: 10px;
-}
+}*/
 
 nav a { 
     color: black;
