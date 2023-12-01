@@ -32,5 +32,10 @@ nav {
     margin-bottom: 10px;
 }
 
+nav a { 
+    text-decoration: none;
+    color: black;
+}
+
 /* Vízszintes csík */
 hr { color: #c1c1c1; }
