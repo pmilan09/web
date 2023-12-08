@@ -40,5 +40,5 @@ hr { color: #c1c1c1; }
 footer {
     padding: 10px;
     background-color: #2e343d !important;
-    text-align: center;
+    text-align: center !important;
 }
