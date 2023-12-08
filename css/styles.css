@@ -39,5 +39,6 @@ hr { color: #c1c1c1; }
 /* Footer tag sílusa */
 footer {
     padding: 10px;
-    background-color: #2e343d;
+    background-color: #2e343d !important;
+    text-align: center;
 }
