@@ -2,7 +2,7 @@
 
 /* Mindegyik szövegnek ugyanaz legyen a színe,
    illetve a 'családja' */
-   html * {
+html * {
     color: #c1c1c1;
     font-family: monospace;
 }
@@ -14,7 +14,7 @@
 
 /* A weboldal háttérszíne */
 body {
-    background-color: #242930;
+    background-color: #1a272e;
 }
 
 /* Összes headernek, valamint felsorolásnak
@@ -23,22 +23,59 @@ h1, h2, h3, h4, h5, h6, ul, ol {
     margin: 1px;
 }
 
-/* A navigációs tabok beállítása */
-nav {
-    background-color: #2e343d;
-    border: 10px solid #2e343d;
-    border-radius: 10px;
-    display: inline-block;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
 /* Vízszintes csík */
 hr { color: #c1c1c1; }
+
+nav {
+    max-width: max-content;
+    background-color: #253842;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #c22540;
+}
+
+@media screen and (max-width: 625px) {
+    nav a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.orarend th, td {
+    border: 1px solid #c1c1c1;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.orarend table {
+    border-collapse: collapse;
+}
+
+.urlap input, textarea {
+    margin-top: 2px;
+    border: 1px solid grey;
+    background-color: #1e2126;
+}
 
 /* Footer tag sílusa */
 footer {
     padding: 10px;
-    background-color: #2e343d !important;
+    margin-top: 10px;
+    background-color: #253842 !important;
     text-align: center !important;
 }

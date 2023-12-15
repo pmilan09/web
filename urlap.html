@@ -5,31 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Űrlap</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Beállítom az input és textarea stílusát -->
-    <style>
-        input, textarea {
-            margin-top: 2px;
-            border: 1px solid grey;
-            background-color: #1e2126;
-        }
-    </style>
 </head>
 <body>
     <!-- Link az összes feladathoz -->
     <nav>
-        <a href="index.html">FŐOLDAL</a> |
-        <a href="kep-link.html">KÉPLINK FELADAT</a> |
-        <a href="lista.html">LISTÁK FELADAT</a> |
-        <a href="orarend.html">ÓRAREND FELADAT</a> |
+        <a href="index.html">FŐOLDAL</a>
+        <a href="kep-link.html">KÉPLINK FELADAT</a>
+        <a href="lista.html">LISTÁK FELADAT</a>
+        <a href="orarend.html">ÓRAREND FELADAT</a>
         <a href="urlap.html">ŰRLAP FELADAT</a>
     </nav>
-    <br>
 
     <!-- Feladatnak a címe -->
     <h1>PM regisztrációs oldala</h1>
 
     <!-- Űrlap belseje -->
-    <form>
+    <form class="urlap">
         <fieldset>
             <!-- Űrlap címe -->
             <legend><h2>Sign-up</h2></legend>
@@ -40,8 +33,8 @@
             <input type="tel" placeholder="Telefonszám" id="phone" required> <br><br>
 
             <!-- Nem és születési dátum -->
-            <input type="radio" name="gender" id="gender" required> fiú
-            <input type="radio" name="gender" id="gender" required> lány <br>
+            <input type="radio" name="gender" id="gender" required> Fiú
+            <input type="radio" name="gender" id="gender" required> Lány <br>
             <input type="date" id="birthdate" required> Születési dátum <br><br>
 
             <!-- Adatok -->
