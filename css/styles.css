@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, ul, ol {
 /* Vízszintes csík */
 hr { color: #c1c1c1; }
 
+/* Navigációs lap */
 nav {
     max-width: max-content;
     background-color: #253842;
@@ -33,6 +34,7 @@ nav {
     overflow: hidden;
 }
 
+/* Navigációs lap linkje */
 nav a {
     float: left;
     display: block;
@@ -42,10 +44,17 @@ nav a {
     text-decoration: none;
 }
 
+/* Navigációs lap link, ha ráviszed az egeret */
 nav a:hover {
     background-color: #c22540;
 }
 
+/* Órarend listája */
+.orarend table {
+    border-collapse: collapse;
+}
+
+/* Órarend listájának elemei */
 .orarend th, td {
     border: 1px solid #c1c1c1;
     padding: 5px;
@@ -53,10 +62,7 @@ nav a:hover {
     height: 30px;
 }
 
-.orarend table {
-    border-collapse: collapse;
-}
-
+/* Űrlap input */
 .urlap input, textarea {
     margin-top: 2px;
     border: 1px solid grey;
