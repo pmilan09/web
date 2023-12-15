@@ -46,15 +46,6 @@ nav a:hover {
     background-color: #c22540;
 }
 
-@media screen and (max-width: 625px) {
-    nav a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-}
-
 .orarend th, td {
     border: 1px solid #c1c1c1;
     padding: 5px;
