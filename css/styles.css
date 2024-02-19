@@ -1,0 +1,78 @@
+/* Alap styles.css mindegyik HTML laphoz */
+
+/* Mindegyik szövegnek ugyanaz legyen a színe,
+   illetve a 'családja' */
+html * {
+    color: #c1c1c1;
+    font-family: monospace;
+}
+
+/* A kijelölt szöveg színe */
+::selection {
+    background: #848982;
+}
+
+/* A weboldal háttérszíne */
+body {
+    background-color: #1a272e;
+}
+
+/* Összes headernek, valamint felsorolásnak
+    a 'margin'-ja legyen 1px */
+h1, h2, h3, h4, h5, h6, ul, ol {
+    margin: 1px;
+}
+
+/* Vízszintes csík */
+hr { color: #c1c1c1; }
+
+/* Navigációs lap */
+nav {
+    max-width: max-content;
+    background-color: #253842;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* Navigációs lap linkje */
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Navigációs lap link, ha ráviszed az egeret */
+nav a:hover {
+    background-color: #c22540;
+}
+
+/* Órarend listája */
+.orarend table {
+    border-collapse: collapse;
+}
+
+/* Órarend listájának elemei */
+.orarend th, td {
+    border: 1px solid #c1c1c1;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+/* Űrlap input */
+.urlap input, textarea {
+    margin-top: 2px;
+    border: 1px solid grey;
+    background-color: #1e2126;
+}
+
+/* Footer tag sílusa */
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #253842 !important;
+    text-align: center !important;
+}
