@@ -11,6 +11,10 @@
         .image-container {
             display: inline-block;
         }
+
+        .image-container img {
+            width: 300px;
+        }
     </style>
 </head>
 <body>
@@ -27,7 +31,7 @@
 
     <div class="image-container" onclick="swap_images();">
         <img id="first" src="./img/first-medal.png">
-        <img id="second" src="./img/second-medal.png">
+        <img id="second" src="./img/second-medal.png" style="display: none;">
     </div>
 
     <br>
